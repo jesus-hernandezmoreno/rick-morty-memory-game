@@ -1,6 +1,6 @@
 ![Logo of the project](https://raw.githubusercontent.com/jesus-hernandezmoreno/tic-tac-toe/master/public/img/logo.png)
 
-# React and Morty Memory game
+# React and Morty Memory Game
 
 I turned myself into a memory game, Morty! I'm memory game Riiiiick!
 
