@@ -29,9 +29,7 @@ const App = () => {
     setTurns(0);
   };
 
-  // handle a choice
   const handleChoice = (card: CardType) => {
-    console.log(card);
     choiceOne ? setChoiceTwo(card) : setChoiceOne(card);
   };
 
