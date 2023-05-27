@@ -3,12 +3,12 @@ import { Card } from './components/Card';
 import type { CardType } from './components/Card';
 
 const cardImages: CardType[] = [
-  { src: '/img/rick.jpg', matched: false },
-  { src: '/img/morty.png', matched: false },
-  { src: '/img/beth.jpg', matched: false },
-  { src: '/img/summer.jpg', matched: false },
-  { src: '/img/jerry.png', matched: false },
-  { src: '/img/evil-morty.jpg', matched: false }
+  { src: 'img/rick.jpg', matched: false },
+  { src: 'img/morty.png', matched: false },
+  { src: 'img/beth.jpg', matched: false },
+  { src: 'img/summer.jpg', matched: false },
+  { src: 'img/jerry.png', matched: false },
+  { src: 'img/evil-morty.jpg', matched: false }
 ];
 
 const App = () => {
@@ -69,7 +69,7 @@ const App = () => {
 
   return (
     <div className="app">
-      <img src="/logo.png" width={500} alt="logo" />
+      <img src="logo.png" width={500} alt="logo" />
       <div className="actions-container">
         <button onClick={startGame}>New Game</button>
         <p>Turns: {turns}</p>
